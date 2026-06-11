@@ -1,0 +1,193 @@
+{
+  "fabrics": [
+    {
+      "id": "combi",
+      "name": "Combi",
+      "koreanName": "콤비",
+      "description": "The signature dual-layer Korean blind combining alternating sheer and opaque fabric bands. Elegant, versatile, and available in a wide range of textures and colors — from natural woodlook finishes to vibrant solids.",
+      "thumbnail": "/images/fabrics/combi/thumbnail.jpg",
+      "products": [
+        {
+          "id": "luxury-woodlook",
+          "name": "Luxury Woodlook",
+          "koreanName": "럭셔리 우드룩",
+          "heroImage": "/images/fabrics/combi/luxury-woodlook/hero.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": [
+            { "name": "White", "koreanName": "화이트", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
+            { "name": "L. Grey", "koreanName": "L.그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
+            { "name": "Blue Grey", "koreanName": "블루그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
+            { "name": "D. Grey", "koreanName": "D.그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
+            { "name": "Mushroom", "koreanName": "머쉬룸", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
+            { "name": "Khaki", "koreanName": "카키", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
+            { "name": "Peach", "koreanName": "피치", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
+            { "name": "Cherry", "koreanName": "체리", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
+            { "name": "Wine", "koreanName": "와인", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
+            { "name": "Navy", "koreanName": "네이비", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" }
+          ]
+        },
+        {
+          "id": "basic",
+          "name": "Basic",
+          "koreanName": "베이직",
+          "heroImage": "/images/fabrics/combi/basic/hero.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": [
+            { "name": "White", "koreanName": "화이트", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Ivory", "koreanName": "아이보리", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Peach", "koreanName": "피치", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "M. Taupe", "koreanName": "M타프", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Mustard", "koreanName": "머스타드", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Brown", "koreanName": "브라운", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Mocha", "koreanName": "모카", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
+            { "name": "Coconut", "koreanName": "코카넛", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" }
+          ]
+        },
+        {
+          "id": "woodlook-normal",
+          "name": "Woodlook Normal",
+          "koreanName": "우드룩 노말",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        },
+        {
+          "id": "woodlook-premier",
+          "name": "Woodlook Premier",
+          "koreanName": "우드룩 프리미어",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        },
+        {
+          "id": "3-color-woodlook",
+          "name": "3-Color Woodlook",
+          "koreanName": "3컬러 우드룩",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        },
+        {
+          "id": "orion",
+          "name": "Orion",
+          "koreanName": "오리온",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        },
+        {
+          "id": "orion-premier",
+          "name": "Orion Premier",
+          "koreanName": "오리온 프리미어",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        },
+        {
+          "id": "provence",
+          "name": "Provence",
+          "koreanName": "프로방스",
+          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
+          "specs": {
+            "composition": "Polyester 100%",
+            "width": "280cm",
+            "countryOfOrigin": "Made in Korea"
+          },
+          "colors": []
+        }
+      ]
+    },
+    {
+      "id": "special-combi",
+      "name": "Special Combi",
+      "koreanName": "스페셜 콤비",
+      "description": "An upgraded Combi blind with premium fabric weaves and an expanded designer color palette. The Special Combi adds refined textures and richer hues to elevate any interior.",
+      "thumbnail": "/images/fabrics/special-combi/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "combi-black-out",
+      "name": "Combi Black Out",
+      "koreanName": "콤비 암막",
+      "description": "The classic Combi blind redefined for total darkness. The blackout layer blocks 100% of incoming light — ideal for bedrooms, nurseries, and home theaters.",
+      "thumbnail": "/images/fabrics/combi-black-out/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "triple-shade",
+      "name": "Triple Shade",
+      "koreanName": "트리플 쉐이드",
+      "description": "A sophisticated three-layer blind system offering sheer, semi-opaque, and full blackout positions all in one elegantly engineered unit.",
+      "thumbnail": "/images/fabrics/triple-shade/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "noblesse",
+      "name": "Noblesse",
+      "koreanName": "노블리스",
+      "description": "A top-of-the-line fabric collection crafted for discerning tastes. Noblesse blinds feature exclusive weave patterns and premium textures that define understated luxury.",
+      "thumbnail": "/images/fabrics/noblesse/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "roll",
+      "name": "Roll",
+      "koreanName": "롤",
+      "description": "Clean, minimal, and timeless. Roll blinds feature a streamlined roller mechanism with a wide selection of fabric weights and opacities — including the Roll Black Out variant for complete light control.",
+      "thumbnail": "/images/fabrics/roll/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "sun-screen",
+      "name": "Sun Screen",
+      "koreanName": "썬스크린",
+      "description": "High-performance solar fabric that blocks UV rays and reduces glare by up to 95% while preserving your outside view. Keeps interiors cooler and reduces energy costs.",
+      "thumbnail": "/images/fabrics/sun-screen/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "honeycomb-shade",
+      "name": "Honeycomb Shade",
+      "koreanName": "허니콤 쉐이드",
+      "description": "Named for its distinctive cellular structure, this blind traps air to provide superior thermal insulation — reducing heat loss in winter and heat gain in summer.",
+      "thumbnail": "/images/fabrics/honeycomb-shade/thumbnail.jpg",
+      "products": []
+    },
+    {
+      "id": "wood-blinds",
+      "name": "Wood Blinds",
+      "koreanName": "우드블라인드",
+      "description": "Crafted from premium natural and engineered wood. Wood blinds bring warmth, texture, and timeless organic character to living rooms, offices, and hospitality spaces.",
+      "thumbnail": "/images/fabrics/wood-blinds/thumbnail.jpg",
+      "products": []
+    }
+  ]
+}

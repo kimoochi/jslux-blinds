@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useSearchParams } from "next/navigation";
 import { z } from "zod";
 import { motion, AnimatePresence } from "framer-motion";
 import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
@@ -24,13 +25,37 @@ type Status = "idle" | "loading" | "success" | "error";
 
 export function Quote() {
   const [status, setStatus] = useState<Status>("idle");
+  const searchParams = useSearchParams();
 
   const {
     register,
     handleSubmit,
     reset,
+    setValue,
     formState: { errors },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
+
+  useEffect(() => {
+    const fabric = searchParams.get("fabric");
+    const color = searchParams.get("color");
+    const code = searchParams.get("code");
+
+    if (fabric || color) {
+      let customMessage = "Hi, I am interested in getting a free estimate / measurement";
+      if (fabric && color) {
+        customMessage += ` for the ${fabric} in the "${color}" color`;
+        if (code) {
+          customMessage += ` (${code})`;
+        }
+      } else if (fabric) {
+        customMessage += ` for the ${fabric}`;
+      } else if (color) {
+        customMessage += ` for the "${color}" color`;
+      }
+      customMessage += ". Please let me know your pricing, availability, and when we can schedule a site measurement.";
+      setValue("message", customMessage);
+    }
+  }, [searchParams, setValue]);
 
   const onSubmit = async (data: FormData) => {
     setStatus("loading");
