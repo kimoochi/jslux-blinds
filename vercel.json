@@ -1,0 +1,18 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_WEB3FORMS_KEY": "@jslux-web3forms-key",
+    "NEXT_PUBLIC_SITE_URL": "@jslux-site-url",
+    "NEXT_PUBLIC_BUSINESS_ADDRESS": "@jslux-address",
+    "NEXT_PUBLIC_BUSINESS_PHONE": "@jslux-phone",
+    "NEXT_PUBLIC_BUSINESS_EMAIL": "@jslux-email",
+    "NEXT_PUBLIC_BUSINESS_HOURS_WEEKDAY": "@jslux-hours-weekday",
+    "NEXT_PUBLIC_BUSINESS_HOURS_WEEKEND": "@jslux-hours-weekend",
+    "NEXT_PUBLIC_FACEBOOK_URL": "@jslux-facebook",
+    "NEXT_PUBLIC_INSTAGRAM_URL": "@jslux-instagram",
+    "NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL": "@jslux-maps-url"
+  }
+}
