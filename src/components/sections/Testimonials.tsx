@@ -35,7 +35,7 @@ export function Testimonials() {
           <h2 className="section-title" style={{ color: "white" }}>What Our Clients Say</h2>
           <div className="section-divider" />
           <p className="section-subtitle mx-auto" style={{ color: "rgba(255,255,255,0.65)" }}>
-            Don&apos;t just take our word for it — hear from our happy clients across Metro Manila.
+            Don&apos;t just take our word for it — hear from our happy clients across Visayas and Mindanao.
           </p>
         </AnimatedSection>
 

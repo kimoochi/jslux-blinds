@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { FabricCatalog } from "@/components/sections/FabricCatalog";
+import FabricsSection from "@/components/sections/FabricsSection";
 
 export const metadata: Metadata = {
   title: "Fabrics & Colors Catalog",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function FabricsPage() {
   return (
     <div className="pt-20">
-      <FabricCatalog />
+      <FabricsSection />
     </div>
   );
 }

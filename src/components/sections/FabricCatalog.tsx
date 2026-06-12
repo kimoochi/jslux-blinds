@@ -16,12 +16,6 @@ import catalogData from "@/data/fabrics.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-interface ColorSwatch {
-  name: string;
-  koreanName: string;
-  swatch: string;
-}
-
 interface ProductSpecs {
   composition: string;
   width: string;
@@ -32,9 +26,9 @@ interface Product {
   id: string;
   name: string;
   koreanName: string;
-  heroImage: string;
-  specs: ProductSpecs;
-  colors: ColorSwatch[];
+  heroImages: string[];
+  swatchImages: string[];
+  specs?: ProductSpecs;
 }
 
 interface FabricCategory {
@@ -59,10 +53,10 @@ export function FabricCatalog() {
 
   // Modal state
   const [openFabric, setOpenFabric] = useState<FabricCategory | null>(null);
-  // Which product is selected within the modal
+// Which product is selected within the modal
   const [productIndex, setProductIndex] = useState(0);
-  // Which swatch is selected
-  const [selectedSwatch, setSelectedSwatch] = useState<ColorSwatch | null>(null);
+  // Which swatch is selected (stores the selected swatch image URL)
+  const [selectedSwatch, setSelectedSwatch] = useState<string | null>(null);
   // Lightbox
   const [lightboxIndex, setLightboxIndex] = useState(-1);
 
@@ -103,14 +97,17 @@ export function FabricCatalog() {
       fabric: `${openFabric.name} – ${currentProduct.name}`,
     });
     if (selectedSwatch) {
-      params.set("color", `${selectedSwatch.name} (${selectedSwatch.koreanName})`);
+      const swatchIdx = (currentProduct.swatchImages ?? []).indexOf(selectedSwatch);
+      if (swatchIdx !== -1) {
+        params.set("color", `Swatch Card ${swatchIdx + 1}`);
+      }
     }
     return `/quote?${params.toString()}`;
   };
 
   // ── Lightbox slides ───────────────────────────────────────────────────────
 
-  const lightboxSlides = (currentProduct?.colors ?? []).map((c) => ({ src: c.swatch }));
+  const lightboxSlides = (currentProduct?.swatchImages ?? []).map((src) => ({ src }));
 
   // ─────────────────────────────────────────────────────────────────────────
 
@@ -138,7 +135,7 @@ export function FabricCatalog() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 sm:gap-7 max-w-4xl mx-auto">
             {fabrics.map((fabric, i) => {
               const hasProducts = fabric.products.length > 0;
-              const totalColors = fabric.products.reduce((sum, p) => sum + p.colors.length, 0);
+              const totalSwatches = fabric.products.reduce((sum, p) => sum + (p.swatchImages?.length ?? 0), 0);
 
               return (
                 <AnimatedSection key={fabric.id} delay={i * 0.06}>
@@ -190,10 +187,10 @@ export function FabricCatalog() {
                       </p>
 
                       {/* Color count if available */}
-                      {totalColors > 0 && (
+                      {totalSwatches > 0 && (
                         <p className="text-brand-olive-dark text-[10px] font-semibold mt-2">
                           <Palette size={10} className="inline mr-1" />
-                          {totalColors} colors across {fabric.products.length} product{fabric.products.length !== 1 ? "s" : ""}
+                          {totalSwatches} swatches across {fabric.products.length} product{fabric.products.length !== 1 ? "s" : ""}
                         </p>
                       )}
 
@@ -291,7 +288,7 @@ export function FabricCatalog() {
                       {/* Hero image */}
                       <div className="relative h-52 sm:h-64 lg:h-72 w-full overflow-hidden">
                         <Image
-                          src={currentProduct.heroImage}
+                          src={currentProduct.heroImages && currentProduct.heroImages.length > 0 ? currentProduct.heroImages[0] : openFabric.thumbnail}
                           alt={`${currentProduct.name} room installation`}
                           fill
                           unoptimized
@@ -360,7 +357,7 @@ export function FabricCatalog() {
                       <div className="flex-grow overflow-y-auto px-5 py-5">
 
                         {/* No colors yet */}
-                        {currentProduct.colors.length === 0 && (
+                        {(currentProduct.swatchImages ?? []).length === 0 && (
                           <div className="flex flex-col items-center justify-center text-center h-full py-12 gap-3">
                             <Palette size={32} className="text-brand-orange/40" />
                             <p className="text-brand-gray text-sm font-medium">Color samples coming soon</p>
@@ -371,23 +368,23 @@ export function FabricCatalog() {
                         )}
 
                         {/* Color swatches */}
-                        {currentProduct.colors.length > 0 && (
+                        {(currentProduct.swatchImages ?? []).length > 0 && (
                           <>
                             <p className="text-xs font-semibold text-brand-brown uppercase tracking-wider mb-3">
-                              {currentProduct.name} Colors — {currentProduct.colors.length} available
+                              {currentProduct.name} Swatches — {currentProduct.swatchImages.length} available
                             </p>
                             <p className="text-[11px] text-brand-gray mb-4">
-                              Click a swatch to zoom. Select a color to pre-fill your quote.
+                              Click a swatch card to zoom. Select a swatch to pre-fill your quote.
                             </p>
 
-                            <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
-                              {currentProduct.colors.map((color, idx) => {
-                                const isSelected = selectedSwatch?.name === color.name;
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                              {currentProduct.swatchImages.map((swatch, idx) => {
+                                const isSelected = selectedSwatch === swatch;
                                 return (
                                   <button
-                                    key={`${color.name}-${idx}`}
+                                    key={`${swatch}-${idx}`}
                                     onClick={() => {
-                                      setSelectedSwatch(color);
+                                      setSelectedSwatch(swatch);
                                       setLightboxIndex(idx);
                                     }}
                                     className={`group/sw flex flex-col items-center p-2 rounded-xl border-2 transition-all duration-200 text-left ${
@@ -399,19 +396,16 @@ export function FabricCatalog() {
                                     {/* Swatch image */}
                                     <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-brand-cream-dark border border-brand-brown/10 mb-2">
                                       <Image
-                                        src={color.swatch}
-                                        alt={color.name}
+                                        src={swatch}
+                                        alt={`${currentProduct.name} Swatch Card ${idx + 1}`}
                                         fill
                                         unoptimized
                                         className="object-cover"
                                         sizes="100px"
                                       />
                                     </div>
-                                    <span className="text-[10px] font-bold text-brand-brown leading-tight block">
-                                      {color.name}
-                                    </span>
-                                    <span className="text-[9px] text-brand-gray leading-tight block mt-0.5">
-                                      {color.koreanName}
+                                    <span className="text-[10px] font-bold text-brand-brown leading-tight block text-center">
+                                      Swatch Card {idx + 1}
                                     </span>
                                   </button>
                                 );
@@ -426,11 +420,10 @@ export function FabricCatalog() {
                                 className="mt-4 p-3 bg-brand-cream rounded-xl border border-brand-orange/20 text-sm text-brand-brown flex items-center gap-2"
                               >
                                 <div className="relative w-6 h-6 rounded border border-brand-brown/15 overflow-hidden shrink-0">
-                                  <Image src={selectedSwatch.swatch} alt={selectedSwatch.name} fill className="object-cover" sizes="24px" />
+                                  <Image src={selectedSwatch} alt="Selected swatch" fill className="object-cover" sizes="24px" />
                                 </div>
                                 <span>
-                                  Selected: <strong>{selectedSwatch.name}</strong>{" "}
-                                  <span className="text-brand-gray text-xs">({selectedSwatch.koreanName})</span>
+                                  Selected: <strong>Swatch Card {currentProduct.swatchImages.indexOf(selectedSwatch) + 1}</strong>
                                 </span>
                               </motion.div>
                             )}
@@ -477,7 +470,7 @@ export function FabricCatalog() {
                   >
                     <PhoneCall size={15} />
                     {selectedSwatch
-                      ? `Request Quote — ${currentProduct?.name} / ${selectedSwatch.name}`
+                      ? `Request Quote — ${currentProduct?.name} / Swatch Card ${(currentProduct?.swatchImages ?? []).indexOf(selectedSwatch) + 1}`
                       : `Request a Quote with this Fabric`}
                   </Link>
                   <button

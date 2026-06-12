@@ -80,19 +80,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
-          <div>
-            <h3 className="font-heading font-bold text-lg mb-5">Our Products</h3>
-            <ul className="space-y-2.5 text-sm text-white/65">
-              {["Day & Night Korean Blinds", "Blackout Korean Blinds", "Sheer Korean Blinds"].map((p) => (
-                <li key={p} className="flex items-center gap-1.5">
-                  <ChevronRight size={13} className="text-brand-orange shrink-0" />
-                  {p}
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Contact */}
           <div>
             <h3 className="font-heading font-bold text-lg mb-5">Contact Us</h3>

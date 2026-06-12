@@ -89,7 +89,7 @@ export function Hero() {
               Get a Free Quote
             </Link>
             <Link
-              href="/products"
+              href="/fabrics"
               className="btn-secondary text-base px-7 py-4"
             >
               <Eye size={18} />

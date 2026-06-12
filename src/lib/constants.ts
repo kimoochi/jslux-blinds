@@ -9,7 +9,7 @@ export const SITE_DESCRIPTION =
   "JS Lux Blinds offers premium custom Korean window blinds — the finest dual-layer zebra blinds crafted for elegance, light control, and privacy. Affordable price without compromising quality. Serving Mindanao and Visayas.";
 
 export const CONTACT = {
-  address: process.env.NEXT_PUBLIC_BUSINESS_ADDRESS ?? "Metro Manila, Philippines",
+  address: process.env.NEXT_PUBLIC_BUSINESS_ADDRESS ?? "Cebu City, Philippines",
   phone:   process.env.NEXT_PUBLIC_BUSINESS_PHONE   ?? "+63 XXX XXX XXXX",
   email:   process.env.NEXT_PUBLIC_BUSINESS_EMAIL   ?? "info@jsluxblinds.com",
   hoursWeekday: process.env.NEXT_PUBLIC_BUSINESS_HOURS_WEEKDAY ?? "Monday – Saturday: 8:00 AM – 6:00 PM",
@@ -17,50 +17,16 @@ export const CONTACT = {
   facebook:  process.env.NEXT_PUBLIC_FACEBOOK_URL  ?? "https://facebook.com/jsluxblinds",
   instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL ?? "https://instagram.com/jsluxblinds",
   mapEmbed:  process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL ??
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247268.54312719854!2d120.88800!3d14.60990!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d7f9b1a37021!2sMetro%20Manila!5e0!3m2!1sen!2sph!4v1234567890",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125809.63738515178!2d123.84830264013964!3d10.295443373862327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99b2a68a6d4b9%3A0x5c5e7f5d4f3b2a1!2sCebu%20City%2C%20Cebu!5e0!3m2!1sen!2sph!4v1234567890",
 };
 
 export const NAV_LINKS = [
   { label: "Home",     href: "/"             },
   { label: "About",    href: "/about"        },
-  { label: "Products", href: "/products"     },
   { label: "Fabrics",  href: "/fabrics"      },
   { label: "Gallery",  href: "/gallery"      },
   { label: "Quote",    href: "/quote"        },
   { label: "Contact",  href: "/contact"      },
-];
-
-export const PRODUCTS = [
-  {
-    id: "korean-day-night",
-    name: "Day & Night Korean Blinds",
-    description:
-      "Our signature dual-layer Korean blinds with alternating sheer and opaque fabric bands. Seamlessly transition from soft filtered light to full privacy at any time of day.",
-    image: "/images/products/zebra.png",
-    fallbackImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
-    badge: "Best Seller",
-  },
-  {
-    id: "korean-blackout",
-    name: "Blackout Korean Blinds",
-    description:
-      "Premium Korean blackout blinds that block 100% of incoming light. Perfect for bedrooms, home theaters, and anyone who values total darkness and complete privacy.",
-    image: "/images/products/motorized.png",
-    fallbackImage:
-      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=600&q=80",
-    badge: "Popular",
-  },
-  {
-    id: "korean-sheer",
-    name: "Sheer Korean Blinds",
-    description:
-      "Elegant light-filtering Korean blinds that softly diffuse sunlight throughout your space. Enjoy natural brightness while maintaining a sense of warmth and privacy.",
-    image: "/images/products/sheer.png",
-    fallbackImage:
-      "https://images.unsplash.com/photo-1585128792020-803d29415281?w=600&q=80",
-    badge: null,
-  },
 ];
 
 export const WHY_CHOOSE_US = [
@@ -105,7 +71,7 @@ export const WHY_CHOOSE_US = [
 export const TESTIMONIALS = [
   {
     name: "Maria Santos",
-    location: "Quezon City",
+    location: "Cebu City",
     rating: 5,
     review:
       "Absolutely love our new zebra blinds! The quality exceeded our expectations and the installation team was so professional. Will definitely order more for our other rooms.",
@@ -113,7 +79,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "John & Claire Reyes",
-    location: "Makati City",
+    location: "Davao City",
     rating: 5,
     review:
       "We got motorized blinds for our living room and bedroom. The difference is amazing — controlling them with our phones feels so luxurious. Very reasonably priced!",
@@ -121,15 +87,15 @@ export const TESTIMONIALS = [
   },
   {
     name: "Ana Lim",
-    location: "Pasig City",
+    location: "Iloilo City",
     rating: 5,
     review:
-      "JS Lux Blinds transformed our whole condo! The Roman blinds they installed look like something from a design magazine. Highly recommended for anyone wanting premium quality.",
+      "JS Lux Blinds transformed our whole home! The Roman blinds they installed look like something from a design magazine. Highly recommended for anyone wanting premium quality.",
     product: "Roman Blinds",
   },
   {
     name: "Robert Dela Cruz",
-    location: "Mandaluyong",
+    location: "Cagayan de Oro",
     rating: 5,
     review:
       "Fast response, great customer service, and the blinds are top-notch. We got blackout roller blinds for the bedroom and the kids sleep so much better now.",
@@ -137,7 +103,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Theresa Gonzales",
-    location: "Parañaque City",
+    location: "Bacolod City",
     rating: 5,
     review:
       "Excellent quality at a very affordable price. The sheer curtains in our sala are stunning — everyone who visits always compliments them. Thank you JS Lux!",

@@ -4,124 +4,103 @@
       "id": "combi",
       "name": "Combi",
       "koreanName": "콤비",
-      "description": "The signature dual-layer Korean blind combining alternating sheer and opaque fabric bands. Elegant, versatile, and available in a wide range of textures and colors — from natural woodlook finishes to vibrant solids.",
+      "description": "A classic dual-layer blind combining alternating sheer and opaque fabric bands for versatile light control and daytime privacy. The signature look for modern Korean interiors.",
       "thumbnail": "/images/fabrics/combi/thumbnail.jpg",
       "products": [
         {
           "id": "luxury-woodlook",
           "name": "Luxury Woodlook",
           "koreanName": "럭셔리 우드룩",
-          "heroImage": "/images/fabrics/combi/luxury-woodlook/hero.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": [
-            { "name": "White", "koreanName": "화이트", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
-            { "name": "L. Grey", "koreanName": "L.그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
-            { "name": "Blue Grey", "koreanName": "블루그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
-            { "name": "D. Grey", "koreanName": "D.그레이", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
-            { "name": "Mushroom", "koreanName": "머쉬룸", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg" },
-            { "name": "Khaki", "koreanName": "카키", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
-            { "name": "Peach", "koreanName": "피치", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
-            { "name": "Cherry", "koreanName": "체리", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
-            { "name": "Wine", "koreanName": "와인", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" },
-            { "name": "Navy", "koreanName": "네이비", "swatch": "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg" }
+          "heroImages": [
+            "/images/fabrics/combi/luxury-woodlook/hero-1.jpg",
+            "/images/fabrics/combi/luxury-woodlook/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/luxury-woodlook/swatches-1.jpg",
+            "/images/fabrics/combi/luxury-woodlook/swatches-2.jpg"
           ]
         },
         {
           "id": "basic",
           "name": "Basic",
           "koreanName": "베이직",
-          "heroImage": "/images/fabrics/combi/basic/hero.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": [
-            { "name": "White", "koreanName": "화이트", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Ivory", "koreanName": "아이보리", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Peach", "koreanName": "피치", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "M. Taupe", "koreanName": "M타프", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Mustard", "koreanName": "머스타드", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Brown", "koreanName": "브라운", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Mocha", "koreanName": "모카", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" },
-            { "name": "Coconut", "koreanName": "코카넛", "swatch": "/images/fabrics/combi/basic/swatches-1.jpg" }
+          "heroImages": [
+            "/images/fabrics/combi/basic/hero-1.jpg",
+            "/images/fabrics/combi/basic/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/basic/swatches-1.jpg",
+            "/images/fabrics/combi/basic/swatches-2.jpg"
           ]
         },
         {
           "id": "woodlook-normal",
           "name": "Woodlook Normal",
-          "koreanName": "우드룩 노말",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "koreanName": "우드룩노말",
+          "heroImages": [
+            "/images/fabrics/combi/woodlook-normal/hero-1.jpg",
+            "/images/fabrics/combi/woodlook-normal/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/woodlook-normal/swatches-1.jpg",
+            "/images/fabrics/combi/woodlook-normal/swatches-2.jpg"
+          ]
         },
         {
           "id": "woodlook-premier",
           "name": "Woodlook Premier",
-          "koreanName": "우드룩 프리미어",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "koreanName": "우드룩프리미어",
+          "heroImages": [
+            "/images/fabrics/combi/woodlook-premier/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/woodlook-premier/swatches-1.jpg"
+          ]
         },
         {
           "id": "3-color-woodlook",
           "name": "3-Color Woodlook",
-          "koreanName": "3컬러 우드룩",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "koreanName": "3색우드룩",
+          "heroImages": [
+            "/images/fabrics/combi/3-color-woodlook/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/3-color-woodlook/swatches-1.jpg"
+          ]
         },
         {
           "id": "orion",
           "name": "Orion",
           "koreanName": "오리온",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "heroImages": [
+            "/images/fabrics/combi/orion/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/orion/swatches-1.jpg"
+          ]
         },
         {
           "id": "orion-premier",
           "name": "Orion Premier",
           "koreanName": "오리온 프리미어",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "heroImages": [
+            "/images/fabrics/combi/orion-premier/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/orion-premier/swatches-1.jpg"
+          ]
         },
         {
           "id": "provence",
           "name": "Provence",
           "koreanName": "프로방스",
-          "heroImage": "/images/fabrics/combi/thumbnail.jpg",
-          "specs": {
-            "composition": "Polyester 100%",
-            "width": "280cm",
-            "countryOfOrigin": "Made in Korea"
-          },
-          "colors": []
+          "heroImages": [
+            "/images/fabrics/combi/provence/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi/provence/swatches-1.jpg",
+            "/images/fabrics/combi/provence/swatches-2.jpg"
+          ]
         }
       ]
     },
@@ -129,65 +108,470 @@
       "id": "special-combi",
       "name": "Special Combi",
       "koreanName": "스페셜 콤비",
-      "description": "An upgraded Combi blind with premium fabric weaves and an expanded designer color palette. The Special Combi adds refined textures and richer hues to elevate any interior.",
+      "description": "Premium textured and patterned combi blinds featuring unique weaves, pleats, and metallic accents for a refined, designer finish.",
       "thumbnail": "/images/fabrics/special-combi/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "woolsy",
+          "name": "Woolsy",
+          "koreanName": "울시",
+          "heroImages": [
+            "/images/fabrics/special-combi/woolsy/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/woolsy/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "indian-st",
+          "name": "Indian S/T",
+          "koreanName": "인디안 S/T",
+          "heroImages": [
+            "/images/fabrics/special-combi/indian-st/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/indian-st/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "eco-7-line-pleated",
+          "name": "Eco 7-Line Pleated",
+          "koreanName": "에코 7줄 주름지",
+          "heroImages": [
+            "/images/fabrics/special-combi/eco-7-line-pleated/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/eco-7-line-pleated/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "elegance",
+          "name": "Elegance",
+          "koreanName": "엘레강스",
+          "heroImages": [
+            "/images/fabrics/special-combi/elegance/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/elegance/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "open-grace-2-line-pleated",
+          "name": "Open Grace 2-Line Pleated",
+          "koreanName": "오픈 그레이스 2줄 주름지",
+          "heroImages": [
+            "/images/fabrics/special-combi/open-grace-2-line-pleated/hero-1.jpg",
+            "/images/fabrics/special-combi/open-grace-2-line-pleated/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/open-grace-2-line-pleated/swatches-1.jpg",
+            "/images/fabrics/special-combi/open-grace-2-line-pleated/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "twins-metal-8-line",
+          "name": "Twins Metal 8-Line",
+          "koreanName": "트윈스 메탈 8줄",
+          "heroImages": [
+            "/images/fabrics/special-combi/twins-metal-8-line/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/twins-metal-8-line/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "cube",
+          "name": "Cube",
+          "koreanName": "큐브",
+          "heroImages": [
+            "/images/fabrics/special-combi/cube/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/special-combi/cube/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "combi-black-out",
       "name": "Combi Black Out",
       "koreanName": "콤비 암막",
-      "description": "The classic Combi blind redefined for total darkness. The blackout layer blocks 100% of incoming light — ideal for bedrooms, nurseries, and home theaters.",
+      "description": "Full light-blocking combi blinds engineered for total privacy and darkness, ideal for bedrooms, media rooms, and nurseries.",
       "thumbnail": "/images/fabrics/combi-black-out/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "mirage-black-out",
+          "name": "Mirage Black Out",
+          "koreanName": "미라지 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/mirage-black-out/hero-1.jpg",
+            "/images/fabrics/combi-black-out/mirage-black-out/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/mirage-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "joker-1-tone-black-out",
+          "name": "Joker 1-Tone Black Out",
+          "koreanName": "조커 1톤 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/joker-1-tone-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/joker-1-tone-black-out/swatches-1.jpg",
+            "/images/fabrics/combi-black-out/joker-1-tone-black-out/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "joker-2-tone-black-out",
+          "name": "Joker 2-Tone Black Out",
+          "koreanName": "조커 2톤 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/joker-2-tone-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/joker-2-tone-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "full-house-black-out",
+          "name": "Full House Black Out",
+          "koreanName": "풀하우스 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/full-house-black-out/hero-1.jpg",
+            "/images/fabrics/combi-black-out/full-house-black-out/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/full-house-black-out/swatches-1.jpg",
+            "/images/fabrics/combi-black-out/full-house-black-out/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "luxury-wide-black-out",
+          "name": "Luxury Wide Black Out",
+          "koreanName": "럭셔리 와이드 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/luxury-wide-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/luxury-wide-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "luxury-black-out",
+          "name": "Luxury Black Out",
+          "koreanName": "럭셔리 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/luxury-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/luxury-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "wide-black-out",
+          "name": "Wide Black Out",
+          "koreanName": "와이드 암막",
+          "heroImages": [
+            "/images/fabrics/combi-black-out/wide-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/combi-black-out/wide-black-out/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "triple-shade",
       "name": "Triple Shade",
       "koreanName": "트리플 쉐이드",
-      "description": "A sophisticated three-layer blind system offering sheer, semi-opaque, and full blackout positions all in one elegantly engineered unit.",
+      "description": "Three-layer fabric vanes that smoothly transition from sheer to opaque, giving precise control over light, privacy, and ambience with a single tilt.",
       "thumbnail": "/images/fabrics/triple-shade/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "pop-3d",
+          "name": "Pop 3D",
+          "koreanName": "팝 3D",
+          "heroImages": [
+            "/images/fabrics/triple-shade/pop-3d/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/triple-shade/pop-3d/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "bres",
+          "name": "Bres",
+          "koreanName": "브레스",
+          "heroImages": [
+            "/images/fabrics/triple-shade/bres/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/triple-shade/bres/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "new-triple-black-out",
+          "name": "New Triple Black Out",
+          "koreanName": "뉴트리플 암막",
+          "heroImages": [
+            "/images/fabrics/triple-shade/new-triple-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/triple-shade/new-triple-black-out/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "noblesse",
       "name": "Noblesse",
       "koreanName": "노블리스",
-      "description": "A top-of-the-line fabric collection crafted for discerning tastes. Noblesse blinds feature exclusive weave patterns and premium textures that define understated luxury.",
+      "description": "Elegant vertical fabric vanes for wide windows and sliding doors, available in single or both-sided fabric for added texture and light diffusion.",
       "thumbnail": "/images/fabrics/noblesse/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "noblesse",
+          "name": "Noblesse",
+          "koreanName": "노블리스",
+          "heroImages": [
+            "/images/fabrics/noblesse/noblesse/hero-1.jpg",
+            "/images/fabrics/noblesse/noblesse/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/noblesse/noblesse/swatches-1.jpg",
+            "/images/fabrics/noblesse/noblesse/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "noblesse-both-sides",
+          "name": "Noblesse (Both Sides)",
+          "koreanName": "노블리스(양면)",
+          "heroImages": [
+            "/images/fabrics/noblesse/noblesse-both-sides/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/noblesse/noblesse-both-sides/swatches-1.jpg",
+            "/images/fabrics/noblesse/noblesse-both-sides/swatches-2.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "roll",
       "name": "Roll",
       "koreanName": "롤",
-      "description": "Clean, minimal, and timeless. Roll blinds feature a streamlined roller mechanism with a wide selection of fabric weights and opacities — including the Roll Black Out variant for complete light control.",
+      "description": "Clean, minimalist roller blinds in sheer, blackout, and screen fabrics — a versatile foundation for any modern room.",
       "thumbnail": "/images/fabrics/roll/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "terrace",
+          "name": "Terrace",
+          "koreanName": "테라스",
+          "heroImages": [
+            "/images/fabrics/roll/terrace/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/terrace/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "tc",
+          "name": "T/C",
+          "koreanName": "티씨",
+          "heroImages": [
+            "/images/fabrics/roll/tc/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/tc/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "mono",
+          "name": "Mono",
+          "koreanName": "모노",
+          "heroImages": [
+            "/images/fabrics/roll/mono/hero-1.jpg",
+            "/images/fabrics/roll/mono/hero-2.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/mono/swatches-1.jpg",
+            "/images/fabrics/roll/mono/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "eco-screen-1",
+          "name": "Eco Screen 1",
+          "koreanName": "에코스크린 1",
+          "heroImages": [
+            "/images/fabrics/roll/eco-screen-1/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/eco-screen-1/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "cubic",
+          "name": "Cubic",
+          "koreanName": "큐빅",
+          "heroImages": [
+            "/images/fabrics/roll/cubic/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/cubic/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "hanoi",
+          "name": "Hanoi",
+          "koreanName": "하노이",
+          "heroImages": [
+            "/images/fabrics/roll/hanoi/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/hanoi/swatches-1.jpg",
+            "/images/fabrics/roll/hanoi/swatches-2.jpg"
+          ]
+        },
+        {
+          "id": "single-black-out",
+          "name": "Single Black Out",
+          "koreanName": "싱글 암막",
+          "heroImages": [
+            "/images/fabrics/roll/single-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/single-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "pearl-black-out",
+          "name": "Pearl Black Out",
+          "koreanName": "펄 암막",
+          "heroImages": [
+            "/images/fabrics/roll/pearl-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/pearl-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "harmony-both-sides-black-out",
+          "name": "Harmony Both Sides Black Out",
+          "koreanName": "하모니 양면 암막",
+          "heroImages": [
+            "/images/fabrics/roll/harmony-both-sides-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/harmony-both-sides-black-out/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "100-black-out",
+          "name": "100% Black Out",
+          "koreanName": "100% 암막",
+          "heroImages": [
+            "/images/fabrics/roll/100-black-out/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/roll/100-black-out/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "sun-screen",
       "name": "Sun Screen",
       "koreanName": "썬스크린",
-      "description": "High-performance solar fabric that blocks UV rays and reduces glare by up to 95% while preserving your outside view. Keeps interiors cooler and reduces energy costs.",
+      "description": "Technical screen fabric that filters glare and UV while preserving your outdoor view, available in multiple openness percentages.",
       "thumbnail": "/images/fabrics/sun-screen/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "sun-screen",
+          "name": "Sun Screen",
+          "koreanName": "썬스크린",
+          "heroImages": [
+            "/images/fabrics/sun-screen/sun-screen/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/sun-screen/sun-screen/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
-      "id": "honeycomb-shade",
+      "id": "honeycomb",
       "name": "Honeycomb Shade",
       "koreanName": "허니콤 쉐이드",
-      "description": "Named for its distinctive cellular structure, this blind traps air to provide superior thermal insulation — reducing heat loss in winter and heat gain in summer.",
-      "thumbnail": "/images/fabrics/honeycomb-shade/thumbnail.jpg",
-      "products": []
+      "description": "Cellular honeycomb fabric that traps air for natural insulation, available in duo (light-filtering) and blackout variants across many colors.",
+      "thumbnail": "/images/fabrics/honeycomb/thumbnail.jpg",
+      "products": [
+        {
+          "id": "new-hdl-duo",
+          "name": "New HDL Duo Honeycomb Shade",
+          "koreanName": "뉴 HDL 듀오 허니콤쉐이드",
+          "heroImages": [
+            "/images/fabrics/honeycomb/new-hdl-duo/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/honeycomb/new-hdl-duo/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "hdn-duo",
+          "name": "HDN Duo Honeycomb Shade",
+          "koreanName": "HDN 듀오 허니콤쉐이드",
+          "heroImages": [
+            "/images/fabrics/honeycomb/hdn-duo/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/honeycomb/hdn-duo/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "hdl-38mm",
+          "name": "HDL 38mm Honeycomb Shade",
+          "koreanName": "HDL 38mm 허니콤쉐이드",
+          "heroImages": [
+            "/images/fabrics/honeycomb/hdl-38mm/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/honeycomb/hdl-38mm/swatches-1.jpg"
+          ]
+        },
+        {
+          "id": "hdn-blackout",
+          "name": "HDN Blackout Honeycomb Shade",
+          "koreanName": "HDN 암막 허니콤쉐이드",
+          "heroImages": [
+            "/images/fabrics/honeycomb/hdn-blackout/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/honeycomb/hdn-blackout/swatches-1.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "wood-blinds",
       "name": "Wood Blinds",
       "koreanName": "우드블라인드",
-      "description": "Crafted from premium natural and engineered wood. Wood blinds bring warmth, texture, and timeless organic character to living rooms, offices, and hospitality spaces.",
+      "description": "Natural and faux-wood horizontal blinds with UV-protective finishes, bringing warm, organic texture to any space.",
       "thumbnail": "/images/fabrics/wood-blinds/thumbnail.jpg",
-      "products": []
+      "products": [
+        {
+          "id": "wood-blinds",
+          "name": "Wood Blinds",
+          "koreanName": "우드블라인드",
+          "heroImages": [
+            "/images/fabrics/wood-blinds/wood-blinds/hero-1.jpg"
+          ],
+          "swatchImages": [
+            "/images/fabrics/wood-blinds/wood-blinds/swatches-1.jpg"
+          ]
+        }
+      ]
     }
   ]
 }

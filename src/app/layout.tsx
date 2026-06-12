@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "roman blinds",
     "zebra blinds",
     "motorized blinds",
-    "window blinds manila",
+    "window blinds cebu",
     "js lux blinds",
     "affordable window blinds",
   ],
